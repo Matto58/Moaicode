@@ -6,7 +6,7 @@ Make sure to put a semi**colon** after every command! Before every command and a
 
 - `Sound [ID] [Pitch]`
   - `[ID]` is the ID of the sound to be played
-  - `[Pitch]` is the amount of semitones of pitch of the sound to be played
+  - `[Pitch]` is the amount of semitones of pitch of the sound to be played (this is now optional since version 1.0.1)
 - `Loop [Amount]`
   - `[Amount]` is the number of times that the commands between `LoopPoint` and `Loop` are gonna play
 - `LoopPoint`
