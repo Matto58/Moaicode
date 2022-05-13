@@ -178,6 +178,7 @@ for (var i = 0; i < contents.length-1; i++) {
             output += "ultrainstinct";
         } else console.log("Sound not found: " + sound);
 
+        if (pitch == undefined) pitch = 0;
         if (pitch != "0") output += "@" + pitch;
         output += "|";
     } else if (command == "Loop" || command == "\r\nLoop" || command == " Loop") {
