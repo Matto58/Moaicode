@@ -16,3 +16,5 @@ Make sure to put a semi**colon** after every command! Before every command and a
     - `BPM 50 +` will add 50 BPM to the current speed
     - `BPM 2 x` will double the speed
     - `BPM 120 =` will set the BPM to 120
+- `<=>`
+  - Combines two sounds together.
