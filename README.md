@@ -1,5 +1,5 @@
 # Moaicode
-Moaicode is an unofficial esoteric programming language for https://gdcolon.com/%F0%9F%97%BF.
+Moaicode is an unofficial transpiled programming language for https://thirtydollar.website.
 
 ## Commands
 Make sure to put a semi**colon** after every command! Before every command and after every semi**colon**, there must be either no space, a CRLF instruction or a space.
