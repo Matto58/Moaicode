@@ -16,5 +16,29 @@ Make sure to put a semi**colon** after every command! Before every command and a
     - `BPM 50 +` will add 50 BPM to the current speed
     - `BPM 2 x` will double the speed
     - `BPM 120 =` will set the BPM to 120
-- `<=>` (introduced in 1.1)
+    
+Introduced in 1.1:
+---
+- `<=>`
   - Combines two sounds together.
+  
+Introduced in 1.2:
+---
+- `LoopOnce`
+  - Plays everything between a looppoint and this instruction.
+- `Background <color> <fadetime>`
+  - Fades to #`<color>` in `<fadetime>` seconds.
+- `Transpose <pitch> <direction +/->`
+  - Shifts all following sounds by `<direction><pitch>` semitones.
+- `Pulse <amt> <every>`
+  - Pulses the screen every `<every>` beats `<amt>` times.
+- `Divider`
+  - Adds a divider that separates two sound parts.
+- `Target <id>`
+  - Creates a target with ID `<id>`.
+- `GotoTarget <id>`
+  - Jumps to target with ID `<id>`.
+- `StopSounds`
+  - Stops all sounds.
+- `Flash`
+  - Flashes the screen.
