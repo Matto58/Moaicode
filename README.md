@@ -2,7 +2,7 @@
 Moaicode is an unofficial interpreted programming language for https://thirtydollar.website.
 
 ## Commands
-Make sure to put a semi**colon** after every command! Before every command and after every semi**colon**, there must be either no space, a CRLF instruction or a space.
+Make sure to put a semi**colon** after every command! Before every command and after every semi**colon**, there must be either no space, a linebreak or a tab.
 
 - `Sound [ID] [Pitch]`
   - `[ID]` is the ID of the sound to be played
